@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <title>Menu Dropdown Horizontal - Linha de Código</title>
+     <!-- Aqui chamamos o nosso arquivo css externo -->
+    <link rel="stylesheet" type="text/css"  href="estilo.css" />
+    <!--[if lte IE 8]>
+ <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+ <style>
+     *{margin: 0; padding: 0;}
+     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Charm&family=Dancing+Script:wght@400;500;600&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Charm&family=Dancing+Script:wght@400;500;600&display=swap');
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+height: 100px;
+margin: 0;
+}
+.bg {
+  background-image: url(alcion.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background: opacity 1;
+}
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+}
+
+/*menu de navegação*/
+.menu{
+background-color: cadetblue;
+
+}
+.menu li{
+position:relative;
+float:left;
+border: #333;
+}
+.menu li a{color:#333; text-decoration:none; padding:10px 10px; display:block;}
+
+.menu li a:hover{
+background:#CCC;
+color:black;
+}
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#fff;
+display:none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+/*Lista de filmes*/
+.menu li ul{
+  width: 150px;
+  background-color: #fff;
+}
+
+/*menu*/
+nav > ul > li{
+display:block;
+height: 1px;
+}
+.facebook {
+  width: 220px;
+  text-align: center;
+}
+
+/*lista de filmes*/
+.filmes:hover {
+    background-color: white;
+    width: 1px;
+    margin: 5px;
+
+}
+
+/*Alcione maravilhosa*/
+h1 {
+    margin: 10px 0px 0px 90px;
+    color: brown;
+    height: 60px;
+    width: 500px;
+    font-size: 26px;
+}
+/*boca*/
+img {
+  width: 40px;
+  padding: 0px 10px 0px;
+  margin: auto;
+}
+
+/*Gosto de piada*/
+.piada {
+     margin: 40px 0px 0px 300px;
+     display: block;
+}
+
+/*video da Lolinha*/
+video {
+  width: 300px;
+  margin: 0px 0px 0px 405px;
+  display: inline;
+}
+
+/* Essa é a Lola*/
+.lola {
+ color:brown;
+ margin: 0px 0px 0px 430px;
+}
+
+/*Falando da Lolinha*/
+.bandida{
+  color:blue;
+  width: 250px;
+  margin: 2px 0px 10px   405px;
+  display: ;
+}
+/*imagem piada*/
+main > img{
+  width: 300px;
+  border-radius: 00px;
+  margin: 20px 10px 50px 200px;
+  display: inline;
+  
+}
+
+/*Falando mim*/
+.eu {
+    width: 600px;
+    margin: auto;
+    border-radius: 1px 1px 20px;
+    font-family: 'Caveat', cursive; /*fonte copiada do google*/
+    font-family: 'Charm', cursive; 
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+/*Versiculo bíblico*/
+main > h3 {
+    width: 550px;
+    margin: 58px 0px -40px 600px;
+    font-size: 18px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Charm', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200px;
+   
+}
+/*referencia bíblica*/
+main > p.refe{
+    
+    border: 0px solid white;
+    margin: 0px 0px 75px 950px;
+    height: 10px;
+    padding: 2%;
+}
+.menu li a {
+  text-align: center;
+  width: 100px;
+  
+}
+
+/*boas vindas*/
+.ola{
+  display: block;
+  margin: 150px 0px 0px 600px;
+  
+}
+.frasefamilia{
+  margin: 15px -20px 0px 205px;
+}
+/*marido e filhos*/
+p > img{
+  width: 400px;
+  margin: 10px 0px 0px 100px;
+  display: inline;
+
+}
+.bay {
+  color:#333;
+ text-align: center;
+ font-size: 25px;
+ margin: 15px 0px 55px 0px;
+}
+.lista {
+  margin: 10px 0px 0px 30px;
+}
+
+ </style>
+</head>
+<body class="bg">
+<nav>
+  <ul class="menu">
+      <li ><h1 alcione>Alcione Maravilhosa <img src="imagem/boca.jpg" alt="">
+    </h1></li>
+		<li class="instagram"><a href="https://www.instagram.com/alcioneoliveira10/" target="blank"><img src="imagem/3instagram30.png" alt="">  </a></a></li>
+		<li class="youtube"><a href="https://www.youtube.com/watch?v=ndDkNYiKhwU" target="blank"><strong><img src="imagem/otimo1.jpeg" alt=""> <br> </a></li>
+      <li class="facebook" ><a href="https://www.facebook.com/profile.php?id=100005306436575"> <img src="imagem/facerecortado1.jpeg" alt=""></a></li>
+	  		<li class="filmes" style="width: 150px;" ><a href="#">Filmes favoritos</a>
+	         	<ul class="filmes">
+	                  <li class="border" style="border: 1px solid #333;"><a href="#">Milagre da sela 7</a></li>
+	                  <li class="background" style="border: 1px solid #333;"  widht:"100px"><a href="#">Superação-A espera de um milagre</a></li>
+	                  <li class="border" style="border: 1px solid #333;"><a href="#">Vivos</a></li>
+                    
+	       		</ul>
+			</li>
+		
+</ul>
+</nav>
+<main>
+  <br>
+  <br>
+  <h1 class="ola">Seja bem vindo(a)</h1>
+  <p class="eu">Descobri o mundo da programação por influência de um sobrinho e estou gostando muito, adoro quando os programas funcionam; é uma sensação maravilhosa. Não guardo magoa, sou super sensivel e sincera. Não gosto de crumprir regras, extrovertida, não durmo antes das 23h e amo chocolate.</p>
+  <ul>
+    <li class="lista">Casada </li>
+    <li class="lista">Ariana &#9800;    </li>
+    <li class="lista">Mimada</li>
+
+  </ul>
+  <h3>Versiculo bíblico que carreago comigo . <br> 
+    
+    <br>
+    "Eu disse essas coisas para que em mim vocês tenham paz.Neste mundo vocês terão afliçoes; contudo, tenham ânimo! Eu venci o mundo."</h3>
+  <p class="refe">João 16:33</p>
+  <h2 class="piada">Gosto de piadas</h2>
+  <img src="piada/piada.jpg"  alt="piada" >
+</main>
+<br>
+
+<h1 class="lola">Essa é a Lola</h1>
+<video src="video/minininha.mp4" autoplay controls>minha cachorra</video>
+<p class="bandida">O nome é Lolita, mas ela também atende por Lolinha, Bandidinha, minininha e Lola.Ela é minha bebê.</p>
+
+<h3 class="frasefamilia" style="margin: 15px 0px 0px 205px;">Esposo e filhos </h3>
+<p class="esposo" style="margin: 0px;"><img src="familia/familia.jpeg" alt=""> <img src="familia/praia.jpeg" alt=""></p>
+
+
+<h3 class="bay">Bye bye</h3>
+<!--Site criado por Alcione-->
+</body>
+</html>
+.
